@@ -2,7 +2,7 @@
     <div class="container">
        <div class="row">
            
-           <div class="col-sm-4 bg-light">
+           <div class="col-sm-4 bg-dark">
                <left-navbar />
            </div>
 
