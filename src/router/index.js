@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 const VuePage =()=>import(/*webpackChunkName:"vuepage"*/'@/views/VuePage.vue')
+const VuejsNav =()=>import(/*webpackChunkName:"VuejsNav"*/'@/views/VuejsNav.vue')
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/vuepage',
     name: 'vuepage',
     component: VuePage
+  },
+  {
+    path: '/vuejs-nav',
+    name: 'vuejs-nav',
+    component: VuejsNav
   },
   {
     path: '/about',
